@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewports" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <script src="./assets/scripts/script.js" defer></script>
+    <title>My Portofolio</title> 
+</head>
+<body>
+    <header>
+        <img src="./assets/images/logo.png" alt="logo" class="logo">
+        <h1>My Portofolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#quote">Kutipan</a></li>
+                <li><a href="#project">Proyek</a></li>
+            </ul>
+            <div class="switch">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider round"></div>
+                </label>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="content">
+            <article id="about" class="card">
+              <h2>Tentang Saya</h2>
+              <p>
+                Perkenalkan Saya Muhammad Raidhi Mustafid Rahman dan biasa dipanggil Raidhi Mustafid. 
+                Saat ini saya merupakan Mahasiswa tingkat akhir di Universitas Pertamina yang sedang 
+                mengikuti Studi Independen Bersertifikat di Dicoding Academy Indonesia di kelas
+                Pengembang Front-End Web dan Back-End. Harapan saya setelah mengikuti kegiatan ini 
+                adalah untuk menjadi Software Developer yang siap terjun ke dunia kerja.
+            </p>
+            </article>
+            
+            <article id="quote" class="card">
+              <h2>Kutipan Acak</h2>
+            </article>
+            
+            <article id="project" class="card">
+                <h2>Proyek Mandiri</h2>
+                <div class="project-container">
+                    <div class="project-image">
+                        <img src="./assets/images/project/etch-a-sketch.png">
+                    </div>
+                    <div class="project-image">
+                        <img src="./assets/images/project/tic-tac-toe.png">
+                    </div>
+                </div>
+            </article>
+        </div>
+          <aside>
+            <article class="profile card">
+                <header>
+                    <figure>
+                       <img src="./assets/images/profile.jpg">
+                       <figcaption>Foto Profil</figcaption>
+                    </figure>
+                    <h2>Muhammad Raidhi Mustafid Rahman</h2>
+                </header>
+                <section>
+                  <h3>Contact Me</h3>
+                    <a class="contact" href="https://github.com/raidymr">
+                        <img src="./assets/images/github.svg" alt="git">
+                        <p>RaidyMR</p>
+                    </a>
+                    <a class="contact" href="#">
+                        <img src="./assets/images/discord.svg" alt="discord">
+                        <p>DunDanT#1823</p>
+                    </a>
+                    <a class="contact" href="https://www.linkedin.com/in/raidy-mustafid-35a4a21a4/">
+                        <img src="./assets/images/linkedin.svg" alt="linkedin">
+                        <p>Raidy Mustafid</p>
+                    </a>
+                </section>
+            </article>
+        </aside>
+    </main>
+    <footer>
+        <p>
+            Copyright © 
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            RaidyMR
+        </p>
+        <a href="https://github.com/raidymr">
+            <img src="./assets/images/github.svg" alt="git">
+        </a>
+    </footer>
+</body>
+</html>
