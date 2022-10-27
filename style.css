@@ -1,0 +1,103 @@
+body{
+    background-color:rgb(176, 230, 178);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: darkgoldenrod;
+    color: #fff;
+}
+
+.nav-links a {
+    color: #fff;
+}
+/* LOGO */
+.logo {
+    font-size: 32px;
+}
+/* NAVBAR MENU */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+
+#about{
+    background-color: antiquewhite;
+    font-family: cursive;
+    width: 300px;
+    border: 5px solid green;
+    padding: 70px;
+    margin: 20px;
+}
+
+#biodata{
+    background-color: rgba(221, 127, 255, 0.423);
+    font-family: fantasy;
+    width: 300px;
+    border: 5px solid green;
+    padding: 70px;
+    margin: 20px;
+}
+
+#biodata > .data{
+    font-family: 'Courier New';
+    text-align: left;
+}
+
+#contact{
+    background-color: cornflowerblue;
+    width: 300px;
+    border: 5px solid green;
+    padding: 70px;
+    margin: 20px;
+}
+
+.perkenalan{
+    color: rebeccapurple;
+}
+
+h3{
+    background-color: chartreuse;
+    text-align: center;
+    font-family: serif;
+}
+
+footer{
+    background-color:rgba(248, 205, 255, 0.585);
+}
+
+img.telegram{
+    position: absolute;
+}
+
+img.github{
+    position: absolute;
+}
