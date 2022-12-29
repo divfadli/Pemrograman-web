@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Lucida Sans', Verdana, sans-serif;
+}
+
+.header {
+  padding: 15px;
+  font-size: 0.15em;
+  margin: 0.15em 0;
+}
+
+.tambah_data{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10%;
+  padding-bottom: 1%;
+}
+
+form {
+  margin-top: 15px;
+  width: 300px;
+}
+
+form > * {
+  margin: 5px 20px;
+}
+
+select {
+  width: 10px;
+}
