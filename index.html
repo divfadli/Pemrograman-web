@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <html lang="en">
+    <head>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+      <script async defer src="https://buttons.github.io/buttons.js"></script>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Pokemon Pokedex</title>
+    </head>
+    <body>
+      <div class="header">
+        <div class="logo">
+          <img src="./img/International_Pokémon_logo.svg">
+        </div>
+        <div class="hamburger-nav">
+          <img src="./img/Poké_Ball_icon.svg">
+          <div class="wrapper">
+            <select class="list" name="pokemonList">
+              <option value="names" text="">NAMES</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="pokedex-container">
+          <div class="pokedex">
+            <div class="panel left-panel">
+              <h3 class="pokemon-name screen">Pokedex</h3>
+              <div class="poke-img">
+                <img src="./img/pikachu.png">
+              </div>
+              <div class="controls">
+                <div class="btn-view">
+                  <i class="fas fa-undo"></i>
+                </div>
+                <div class="btn-shiny"> Shiny </div>
+                <div class="btn-view">
+                  <i class="fas fa-undo"></i>
+                </div>
+              </div>
+              <div class="pokemon-description screen"></div>
+              <div class="loading-container active">
+                <h1>Loading</h1>
+              </div>
+            </div>
+            <div class="divider">
+              <div class="gap"></div>
+              <div class="hinge"></div>
+              <div class="gap"></div>
+              <div class="hinge"></div>
+              <div class="gap"></div>
+              <div class="hinge"></div>
+              <div class="gap"></div>
+            </div>
+            <div class="panel right-panel">
+              <div class="panel-row">
+                <div class="screen stats">
+                  <div class="stat-lineA"> hp................00 </div>
+                  <div class="stat-lineB"> attack............49 </div>
+                  <div class="stat-lineC"> defense...........49 </div>
+                  <div class="stat-lineD"> special-attack....65 </div>
+                  <div class="stat-lineE"> special-defense...65 </div>
+                  <div class="stat-lineF"> speed.............45 </div>
+                </div>
+                <div class="type-list">
+                  <div class="panel-header">Types</div>
+                  <div class="type-box">
+                    <div class="type">One</div>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-row blue-buttons">
+                <div class="blue-button">1</div>
+                <div class="blue-button">2</div>
+                <div class="blue-button">3</div>
+                <div class="blue-button">4</div>
+                <div class="blue-button">5</div>
+                <div class="blue-button">6</div>
+                <div class="blue-button">7</div>
+                <div class="blue-button">8</div>
+                <div class="blue-button">9</div>
+                <div class="blue-button">0</div>
+              </div>
+              <div class="move-list">
+                <div class="move-body move-screen screen">
+                  <div class="move-left">
+                    <div class="move-name">razor-wind</div>
+                    <div class="move-acc"> Accuracy.....80</div>
+                    <div class="move-power"> Power.........80</div>
+                    <div class="move-pp"> PP............10</div>
+                  </div>
+                  <div class="move-right">
+                    <div class="move-type">Type: Grass</div>
+                  </div>
+                </div>
+                <div class="move-controls">
+                  <div class="move-arrow">
+                    <i class="fas fa-caret-up"></i>
+                  </div>
+                  <div class="move-arrow">
+                    <i class="fas fa-caret-down"></i>
+                  </div>
+                </div>
+              </div>
+              <form>
+                <input type="text" name="" value="" class="pokename" placeholder="Search Name or id">
+                <div class="btn">Search</div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="app.js"></script>
+    </body>
+  </html>
